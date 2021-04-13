@@ -1,3 +1,5 @@
+## Program Assignment 2
+
 ## Set of functions to cache the inverse of a matrix
 
 ## We will use to create a special object that stores a square matrix and caches 
@@ -33,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If yes, it gets the inverse from  cache and skips the computation. Else, it calculates 
 ## inverse of the matrix and sets it in the cache through the set inverse function.
 
-cachesolve <- function(x, ...) {
+cacheSolve <- function(x, ...) {
   
   inv <- x$getinverse()
   if(!is.null(inv)) {              ## checking whether the inverse is NULL
